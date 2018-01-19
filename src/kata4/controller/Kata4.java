@@ -21,7 +21,7 @@ public class Kata4 {
     
     public void input() {
         hist = new Histogram<>();
-        hist.mapList(MailListReader.read("C:/Users/test/Documents/NetBeansProjects/Kata4/src/kata4/controller/emails.txt", "@"));
+        hist.mapList(MailListReader.read("C:\\Users\\marc\\Documents\\NetBeansProjects\\Kata4\\src\\kata4\\controller\\emails.txt", "@"));
     }
     
     public void output() {
